@@ -20,7 +20,7 @@ export default function Home() {
       title: "Frente Cumbiero - Cera Perdida",
       type: "Reseña",
       brief: "Cumbia bogotana con tintes electrónicos y demás fusiones, el nuevo álbum de Frente Cumbiero tiene nuevas propuestas pero el mismo sabor.",
-      thumbURL: "https://www.altisono.mx/Reviews/CeraPerdida.jpg"
+      thumbURL: "./CeraPerdida.jpg"
     },
     {
       id: 2,
