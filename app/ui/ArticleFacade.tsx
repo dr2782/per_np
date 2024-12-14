@@ -13,6 +13,7 @@ export default function ArticleFacade({title = "no title", brief = "no brief", t
                     alt="artist media photo"
                     width="500"
                     height="500"
+                    unoptimized
                     className="px-10 basis-1/4"></Image>
 
                 <p className="basis-3/4">{brief}</p>

@@ -7,15 +7,15 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*.altisono.mx',
+        hostname: '**.altisono.mx',
         port: '',
         pathname: '/Reviews/**',
       }
     ]
   },
   experimental: {
-    urlImports: true,
-  }
+    urlImports: ['https://altisono.mx/Reviews/'],
+  },
 
 };
 

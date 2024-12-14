@@ -81,7 +81,8 @@ export default function Home() {
         src={altisonoLogo}
         //src={altisonoLogo}
         alt="Altisono branding letters."
-        width="500" height="500"/>
+        width="500" height="500"
+        unoptimized/>
       </Link>
     </header>
     <main className="bg-black flex flex-col items-center">
