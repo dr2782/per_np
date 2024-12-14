@@ -9,8 +9,8 @@ export default function ArticleFacade({title = "no title", brief = "no brief", t
             </header>
             <main className="flex flex-col items-center w-4/5">
                 <Image 
-                    src={require(thumbURL)}
-                    alt="artist media"
+                    src={thumbURL}
+                    alt="artist media photo"
                     width="500"
                     height="500"
                     className="px-10 basis-1/4"></Image>
