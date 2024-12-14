@@ -7,9 +7,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.altisono.mx',
+        hostname: '**.altisono.mx',
         port: '',
-        pathname: '/Reviews/**'
+        pathname: '/Reviews/**',
+        search:'',
       }
     ]
   }
@@ -17,11 +18,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
-const withImages = require('next-images')
-module.exports = withImages({
-  images: {
-    domains: ['www.altisono.mx'],
-    disableStaticImages: true,
-  },
-})

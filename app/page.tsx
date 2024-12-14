@@ -20,7 +20,7 @@ export default function Home() {
       title: "Frente Cumbiero - Cera Perdida",
       type: "Reseña",
       brief: "Cumbia bogotana con tintes electrónicos y demás fusiones, el nuevo álbum de Frente Cumbiero tiene nuevas propuestas pero el mismo sabor.",
-      thumbURL: "./CeraPerdida.jpg"
+      thumbURL: "https://www.altisono.mx/Reviews/CeraPerdida.jpg"
     },
     {
       id: 2,
@@ -78,8 +78,8 @@ export default function Home() {
     <>
     <header className="bg-black">
       <Link href="/" ><Image className="px-20 min-w-80" 
-        //src={require('./static/Altisono_logo.jpg')}
-        src={altisonoLogo}
+        src={require('./static/Altisono_logo.jpg')}
+        //src={altisonoLogo}
         alt="Altisono branding letters."
         width="500" height="500"/>
       </Link>
