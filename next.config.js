@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   output: "export",
   basePath: "/per_np",
@@ -12,6 +13,15 @@ const nextConfig = {
       }
     ]
   }
+
 };
 
 module.exports = nextConfig;
+
+const withImages = require('next-images')
+module.exports = withImages({
+  images: {
+    domains: ['www.altisono.mx'],
+    disableStaticImages: true,
+  },
+})

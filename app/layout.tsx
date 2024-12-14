@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Example",
-  description: "Next.js web application on GitHub Pages",
+  title: "Altisono",
+  description: "Music magazine",
 };
 
 export default function RootLayout({

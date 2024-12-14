@@ -5,10 +5,16 @@ import altisonoLogo from './static/Altisono_logo.jpg'
 import ArticleFacade from "./ui/ArticleFacade";
 import { FacebookIcon, InstagramIcon } from "next-share";
 
-
+class Article {
+  id: number = 0;
+  title: string = "";
+  type: string = "";
+  brief: string = "";
+  thumbURL: string ="";
+}
 
 export default function Home() {
-  const articleList: Array<Object> = [
+  const articleList: Array<Article> = [
     {
       id: 1,
       title: "Frente Cumbiero - Cera Perdida",
@@ -72,8 +78,10 @@ export default function Home() {
     <>
     <header className="bg-black">
       <Link href="/" ><Image className="px-20 min-w-80" 
+        //src={require('./static/Altisono_logo.jpg')}
         src={altisonoLogo}
-        alt="Altisono branding letters."/>
+        alt="Altisono branding letters."
+        width="500" height="500"/>
       </Link>
     </header>
     <main className="bg-black flex flex-col items-center">
