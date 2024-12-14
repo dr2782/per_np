@@ -76,7 +76,7 @@ export default function Home() {
 
     return (
     <>
-    <header className="bg-black">
+    <header className="bg-black flex flex-col items-center">
       <Link href="/" ><Image className="px-20 min-w-80" 
         src={altisonoLogo}
         //src={altisonoLogo}
@@ -99,7 +99,7 @@ export default function Home() {
         } 
       </ul>
     </main>
-    <footer className="text-center pb-8">
+    <footer className="text-center pb-8 pt-16">
       <h2 className="text-4xl">Contacto</h2>
       <p className="p-9 text-3xl">altisonomx@gmail.com</p>
       <ul className="flex flex-row justify-evenly">
